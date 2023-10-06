@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sparkhunt-sirius",
+  "private_key_id": "0c0dd9d6bfa882f7574c35ccef37e4e44bef0112",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC7GPbRHL6LM2lp\nsMCGACJ/0CPOueyWN/Hrwlp4H4Oqr3yNYHm2PN7ZVuUhQaeT+xcaH3g3N+2haO3S\nitkEoLNIOGzNUhAzu0ZqM8IQkEucUD7yceLUkEGCnsggKCFiVHnFGGZPJ6RSVd+M\nBTwNLn6XyBi14AMzB2Yqr4NVcaGel9XaTL9KaWk9fI/wTqQhAGcWeswFUYmtRvZr\nkGK7P3EdGFL8Ch6iAhTqhFPSzHhGSRtP+hF5iroP/0F6HDu+Zz8jbvGLXImrWBDW\nJcdIF/G/V/7gAc9CbEKrPRw3wJVLCGEq2//Jv35sX1LMOE/ZUEn9eStdCYSrvQMK\n6wUX8leJAgMBAAECggEAEYv6JzXH6lbXAweFoXZFG1w85M1rvSbgCcP/fME6ivkh\nouyyXX9V8xItiQdBnSTw+g02LA+TD2PqMf29nqvSRJVYzDoZtOWnvpwTY5RKKGMf\nlC35dQVWb4FOtDKvTCvaA7xnE/NcJjCm4i3iKjulubxqvNvr0ORXwOxsUnNxZzsd\njvfN8s/RqSG6SR5Cpg0nl8reUSyJOGuwGizxIEKvtG5NYXtPGRy5tdzYmhcqtCjE\nkV3zDmMQDKd5uMrRqqMLGpk9Gt7uarEth2Kefn3+Tfc4p2ZDprQuNJGrpDg4izt9\n0UgvLOV6mVr9IpiDe1VgvrLdExe8uYw55oWEw3RzBQKBgQD03p+5pPyIFxtPtO8O\nPYSDK3rkVJNp2DvqKYl/83DpeUkhibXIhFvKBzhPQFMICOSmLVWAb4JCvY9xcH/i\n5uQjOa1JWhC4MfvhBnt2Rf+2EsmRcM8ljWznAhS3fiDO5Oxq/9oR4bP3Wv041DUl\nlt4tNddTvc49ucNR4NCCuXJobwKBgQDDmhYxpT2ZmIdYE5aE0AqLntCc5cjBs/12\nOS5i1aSE+7TLWwEGQOvbWaU+DY/wPz8/ODllKrXMe2Y7Lh2yCfovi6q0snfDBeSg\nMILgy9Ey+IFvMxJFNHE1HcyZoFHs704++B+/BKHE9D6p9Y5DBTmPqd4+1anFQqe0\nWrTeiyeLhwKBgAxVbkwmgEXGjCyem2/nL1aACSeZDvfE2Xe48eEM/QH1hvZ2fj6E\nVC8/39k2DziXYhTwsZ7PfwsniyMWnIpsQM95Zz4LmE3+zoYOEofpjLC6D4cQ3I4y\nqmqUU0DOzI4/P51AF9bQvITYA2sqXSbwi25RiPAB3nKDedAU98ut1ZJnAoGAbR9/\nlj7LeO8hQr/az0mJOI9nbsC7GWWi19vaxwTNfes21+RzU9vQOVVv3IiQbsW6MTja\nvFfxiJynUgjORE9QpknS+HBAZCrbe4rU2TicA0WkYDcr0DQLnEh9po9MZVS0YGjo\nvRaGcWyZsRPvQ/CcRkvMU128EvK2wOWB1k3nx+0CgYBBJwL7f1RWs58BzMKukvbo\nN7d1lxzWA9NxmV90iNPv5j2nXFwvys2M/026iwoIdQEZzfFZ53I1PlPiWEgm7sS4\nzy9k1NXXIKeC9NfIHMoJ4gRxRbtJMy8KIzryoTCyHuFLdAtmNaxmXdxq7w0cxuSr\n2Vky5eI6gtAVy2fBMhZ1SA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ijxdi@sparkhunt-sirius.iam.gserviceaccount.com",
+  "client_id": "101046006988258868531",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ijxdi%40sparkhunt-sirius.iam.gserviceaccount.com"
+}
