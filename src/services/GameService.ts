@@ -281,8 +281,7 @@ export default class GameService {
             user.token = this.encryptUtil.encryptUser(user.id);
         } else {
             // If Not Login, get decrypted id
-            // user.id = this.encryptUtil.decryptUser(user.token);
-            user.id = user.token;
+            user.id = this.encryptUtil.decryptUser(user.token);
         }
 
         return new Promise((resolve, reject) => {

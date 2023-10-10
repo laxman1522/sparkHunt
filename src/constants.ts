@@ -1,5 +1,5 @@
 export const CONSTANTS = {
-    FIREBASE_URL : 'https://sparkhunt-sirius-default-rtdb.firebaseio.com',
+    FIREBASE_URL : 'https://sparkhunt-cdw-default-rtdb.firebaseio.com',
     SIRIUS_WALLET_IP : 'http://wallet.mycdw.in:5001',
     GAME : {
         LEVELS : 27,
@@ -52,15 +52,16 @@ export const CONSTANTS = {
     * New Firebase config for Sirius's Super Quest
     */
     FIREBASE_SDK: {
-        "type": "service_account",
-        "project_id": "sparkhunt-sirius",
-        "private_key_id": "0c0dd9d6bfa882f7574c35ccef37e4e44bef0112",
-        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC7GPbRHL6LM2lp\nsMCGACJ/0CPOueyWN/Hrwlp4H4Oqr3yNYHm2PN7ZVuUhQaeT+xcaH3g3N+2haO3S\nitkEoLNIOGzNUhAzu0ZqM8IQkEucUD7yceLUkEGCnsggKCFiVHnFGGZPJ6RSVd+M\nBTwNLn6XyBi14AMzB2Yqr4NVcaGel9XaTL9KaWk9fI/wTqQhAGcWeswFUYmtRvZr\nkGK7P3EdGFL8Ch6iAhTqhFPSzHhGSRtP+hF5iroP/0F6HDu+Zz8jbvGLXImrWBDW\nJcdIF/G/V/7gAc9CbEKrPRw3wJVLCGEq2//Jv35sX1LMOE/ZUEn9eStdCYSrvQMK\n6wUX8leJAgMBAAECggEAEYv6JzXH6lbXAweFoXZFG1w85M1rvSbgCcP/fME6ivkh\nouyyXX9V8xItiQdBnSTw+g02LA+TD2PqMf29nqvSRJVYzDoZtOWnvpwTY5RKKGMf\nlC35dQVWb4FOtDKvTCvaA7xnE/NcJjCm4i3iKjulubxqvNvr0ORXwOxsUnNxZzsd\njvfN8s/RqSG6SR5Cpg0nl8reUSyJOGuwGizxIEKvtG5NYXtPGRy5tdzYmhcqtCjE\nkV3zDmMQDKd5uMrRqqMLGpk9Gt7uarEth2Kefn3+Tfc4p2ZDprQuNJGrpDg4izt9\n0UgvLOV6mVr9IpiDe1VgvrLdExe8uYw55oWEw3RzBQKBgQD03p+5pPyIFxtPtO8O\nPYSDK3rkVJNp2DvqKYl/83DpeUkhibXIhFvKBzhPQFMICOSmLVWAb4JCvY9xcH/i\n5uQjOa1JWhC4MfvhBnt2Rf+2EsmRcM8ljWznAhS3fiDO5Oxq/9oR4bP3Wv041DUl\nlt4tNddTvc49ucNR4NCCuXJobwKBgQDDmhYxpT2ZmIdYE5aE0AqLntCc5cjBs/12\nOS5i1aSE+7TLWwEGQOvbWaU+DY/wPz8/ODllKrXMe2Y7Lh2yCfovi6q0snfDBeSg\nMILgy9Ey+IFvMxJFNHE1HcyZoFHs704++B+/BKHE9D6p9Y5DBTmPqd4+1anFQqe0\nWrTeiyeLhwKBgAxVbkwmgEXGjCyem2/nL1aACSeZDvfE2Xe48eEM/QH1hvZ2fj6E\nVC8/39k2DziXYhTwsZ7PfwsniyMWnIpsQM95Zz4LmE3+zoYOEofpjLC6D4cQ3I4y\nqmqUU0DOzI4/P51AF9bQvITYA2sqXSbwi25RiPAB3nKDedAU98ut1ZJnAoGAbR9/\nlj7LeO8hQr/az0mJOI9nbsC7GWWi19vaxwTNfes21+RzU9vQOVVv3IiQbsW6MTja\nvFfxiJynUgjORE9QpknS+HBAZCrbe4rU2TicA0WkYDcr0DQLnEh9po9MZVS0YGjo\nvRaGcWyZsRPvQ/CcRkvMU128EvK2wOWB1k3nx+0CgYBBJwL7f1RWs58BzMKukvbo\nN7d1lxzWA9NxmV90iNPv5j2nXFwvys2M/026iwoIdQEZzfFZ53I1PlPiWEgm7sS4\nzy9k1NXXIKeC9NfIHMoJ4gRxRbtJMy8KIzryoTCyHuFLdAtmNaxmXdxq7w0cxuSr\n2Vky5eI6gtAVy2fBMhZ1SA==\n-----END PRIVATE KEY-----\n",
-        "client_email": "firebase-adminsdk-ijxdi@sparkhunt-sirius.iam.gserviceaccount.com",
-        "client_id": "101046006988258868531",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://oauth2.googleapis.com/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ijxdi%40sparkhunt-sirius.iam.gserviceaccount.com"
+        type	: "service_account",
+        project_id	: "sparkhunt-cdw",
+        private_key_id	: "296cde59d2d53e828d971813f49f7860641a4dda",
+        private_key	: "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCkaAKbQw4hROZX\nUqwmT4/kPhGcE4G86xAA64vTeuaVOHyj/PM3nBrSBm6XcXLtkfk2vAVzKH/XB9V3\n9FPtSWPlXahrLgV2s9gtcSkBeFQLo3IrxhRh4c99PwGkNrwOANQyoIy5mdEfnOq/\nY0nkgBbCjO7R+bgAr1fMrSZMcgeQmpWhlGWgVmOaNivMl/gikPu131X/ygg2a/Uf\nkt9w7ZgUxF3s9CYTwFA/o7RcB22I+05iv+bRNMZhLWpC6gNqXZkfCsO4AuAiP2hR\nOu7eJ5PBYUeYn9c9Io5RPQDxJBw77TXDUW7rJPzMLMH74kVMXV0E5JGkJXHbWCQg\noq4xhOYNAgMBAAECggEAAhDoNs/IVGzeJoBHN2GzaaH0YjKmOXvMaG/irV5uGeIg\nbNt6VKX9T0uIkGt6+dcmW4SliTgxJ8Bf3iFKUbZ6TyZWvhFmvQJkZ9PJeQzW+jYh\nspZLaMcn7pzAAPKKzp6TjBb+QGcusdfsukl9jaXPbhP2fK8yRliYa53MbVRXLynA\n/Ora+wAwoqZZ4O76zoQrUOOKFx9YYebbHhwiO6ihSW1LXRST9vpGmp1fTIV84+gP\nYMroXJ1l1k4jniL+5baEuVcUArzwHeMzGZuoOFbdncDfnVdETfKzj0pKKXt4jD9d\nM5ffcEqjQ+o7VmCd9AHL73JwznOiwHL9rjzisEVLCQKBgQDaRMYb4NVCXUunaLPN\ne/ob2JgqShdMQstNa63h1IOfUbYoaUZAi0khGYfY4Lso3N3nTQOlD8qtUAgSIrdv\nyFJxyMgElhvYf3Gh8QdvBEzY9pgH7qGI1GrxYqS1nJtlYTQZRUG6uRvrdb2j8H3o\nk/w7DrmFQkx56Izh03Dcqoq1CQKBgQDA0568Y1BxCxUyUYtL1XSa5HJBB4vGQxNs\n8HSYIq+q+7THcHo0ujPPkx3Gbfjp6jhOIl1t9w6FBQfWtL4HOa4uZpA+Pn1QEDlA\nJ3IBUMzv6IAJLNCYD/i0ewKqxrMHz7Ca4wIljEirAQ725Z0XPE3GbBDOtu5hAsCm\ncwtZcaON5QKBgB7Nr+vFSjOIeSHSK/Xm9kAxzB/Dvw/7KTfu52ZEmKLGZF/Fo61+\nOr7aHIrmBGPa79Ix0z7bQK4+6jStA5hZ/BCk1l2XVayzJ7VED9mCENpZytDrw45M\n9B7G3hnnVSL0mearGICimSccwbu+N/a309P92v7MgYB+6ksAjSAHTXYJAoGBAKlu\nyYIbeil6ZYurX0ypKSaZKVO+v7Dca4tD1g+AGv+Q4I6GZLtEChaQ3I7pPti7N/Jf\n+9yOQ7Hac8LTWk6a/lRDRueKnS3ms4eNoX1KdGkx0J8/Q6L6Fbzwga1xnwp0Emhm\npBI+K/Qmn/GOXPR3xpddiX85+kg/1OvtFsHnOqGJAoGAG0SLt3Q+0sm4BfNyDVbv\nlaGIEIrDg/Nl0Td0CUgY1fw5x4OO/0qI/+34bfEGk8RkkWAK2YIRHZeGEus+Lvgi\neoBvpkzzqi//U/+6rwizQRB7FDuaQYRXaGlKI+tFxdWBrv02nqREEedvgNjULfw6\nstBf3yK7une9G0gC56mjWJA=\n-----END PRIVATE KEY-----\n",
+        client_email	:"firebase-adminsdk-gjwdv@sparkhunt-cdw.iam.gserviceaccount.com",
+        client_id	: "108490118553918183106",
+        auth_uri	:"https://accounts.google.com/o/oauth2/auth",
+        token_uri	:"https://oauth2.googleapis.com/token",
+        auth_provider_x509_cert_url	: "https://www.googleapis.com/oauth2/v1/certs",
+        client_x509_cert_url : "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gjwdv%40sparkhunt-cdw.iam.gserviceaccount.com",
+        universe_domain	: "googleapis.com"
       }                      
 };

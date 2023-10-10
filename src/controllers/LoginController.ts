@@ -26,7 +26,7 @@ export default class LoginController{
         if(loginResponse.isSuccess){
             // Authentication Success
             let user: User = {
-                id: loginResponse.employeeId,
+                id: loginResponse.employeeId.toString(),
                 name: loginResponse.name,
                 // picUrl: CONSTANTS.SIRIUS_WALLET_IP + "/" + loginResponse.data.user.avatar
             };
