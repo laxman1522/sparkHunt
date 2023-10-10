@@ -89,4 +89,3 @@ let cleanAllAndSetConfig = () => {
 }
 
 cleanAllAndSetConfig();
-console.log("Completed!")

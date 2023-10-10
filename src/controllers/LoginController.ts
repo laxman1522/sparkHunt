@@ -19,16 +19,16 @@ export default class LoginController{
      */
     public async loginUser(params: SiriusWalletUserModel){
         let user : SiriusWalletUserModel = { 
-            userId: params.userId, 
-            pin: params.pin 
+            email: params.email, 
+            password: params.password 
         };
         let loginResponse = await this.loginService.loginUser(user);
         if(loginResponse.isSuccess){
             // Authentication Success
             let user: User = {
-                id: loginResponse.data.user.userId,
-                name: loginResponse.data.user.name,
-                picUrl: CONSTANTS.SIRIUS_WALLET_IP + "/" + loginResponse.data.user.avatar
+                id: loginResponse.employeeId,
+                name: loginResponse.name,
+                // picUrl: CONSTANTS.SIRIUS_WALLET_IP + "/" + loginResponse.data.user.avatar
             };
 
             // Send Question

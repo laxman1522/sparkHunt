@@ -29,7 +29,6 @@ export default class Fetch{
                 "Content-Type": "application/json"
             }
         };
-
         return await fetch(url, options);
     }
 }

@@ -39,14 +39,10 @@ export default class GameService {
     private async constructQuestionResponse(question: Question | undefined, user) {
         let _this = this;
 
-        // console.log("***");
-        // console.log(question);
-
         let userData: User = {
             level: user.level
         };
 
-        //console.log(CONSTANTS.GAME.PLAYING_STATUS, CONSTANTS.GAME.MAINTENANCE_STATUS);
         if (CONSTANTS.GAME.PLAYING_STATUS == true && CONSTANTS.GAME.MAINTENANCE_STATUS == false) {
             if (user.error) {
                 userData = {
@@ -75,7 +71,6 @@ export default class GameService {
             }
 
         } else {
-            // console.log("here");
             question = undefined;
         }
 
@@ -101,7 +96,6 @@ export default class GameService {
         var ref = this.firebaseDB.ref(CONSTANTS.SERVICES.GAME).child("level_" + level);
         return new Promise((resolve, reject) => {
             ref.once("value", function (snapshot: any) {
-                // console.log(snapshot.val());
                 let gameData = snapshot.val();
                 if (gameData !== null) {
                     resolve(gameData.question);
@@ -282,13 +276,13 @@ export default class GameService {
      */
     public getUserData(user, isFromLogin: Boolean) {
         let _this = this;
-
         if (isFromLogin && isFromLogin === true) {
             // If Login, Search for encrypted id
             user.token = this.encryptUtil.encryptUser(user.id);
         } else {
             // If Not Login, get decrypted id
-            user.id = this.encryptUtil.decryptUser(user.token);
+            // user.id = this.encryptUtil.decryptUser(user.token);
+            user.id = user.token;
         }
 
         return new Promise((resolve, reject) => {

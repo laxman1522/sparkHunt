@@ -16,7 +16,7 @@ export default class LoginService{
     public async loginUser(user: SiriusWalletUserModel){
         let authenticationResponse = await FetchUtil.post(CONSTANTS.SERVICES.LOGIN, user);
         let authenticationResponseJson = await authenticationResponse.json();
-        
+      
         return authenticationResponseJson;
     }
 }

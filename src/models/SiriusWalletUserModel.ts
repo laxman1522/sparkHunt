@@ -1,4 +1,4 @@
 export default interface SiriusWalletUserModel{
-    userId : Number;
-    pin : String
+    email : String;
+    password : String
 }
